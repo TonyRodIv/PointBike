@@ -14,6 +14,8 @@
    height: 99px;
    font-family: 'Inter', sans-serif;
 
+   background-color: #fff;
+
    position: sticky;
    top: 0;
    display: flex;
@@ -48,7 +50,7 @@
    color: var(--cor--botão--verde);
    border-color: var(--cor--botão--verde);
    background-color: #ffffff00;
-   
+
    font-size: 20px;
 }
 .btn-login{
