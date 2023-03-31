@@ -10,14 +10,30 @@
    padding: 0;
    box-sizing: border-box;
 }
-.menu{
+.nav{
    height: 99px;
-
    font-family: 'Inter', sans-serif;
 
+   position: sticky;
+   top: 0;
    display: flex;
+   align-items: center;
    flex-direction: row;
-   padding-left: 30px;
+   padding-left: 74px;
+}
+.logo{
+   font-size: 45px;
+}
+.menu{
+   display: flex;
+   align-items: center;
+   margin-left: 806px;
+}
+.sobre-nos, .contato{
+   font-size: 25px;
+   text-decoration: none;
+
+   color: black;
 }
 .btn-cadastro{
    width: 177px;
