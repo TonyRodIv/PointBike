@@ -231,9 +231,10 @@ button {
 
    color: var(--cor--texto--verde-escuro);
 }
-.titulo-cards{
+
+.titulo-cards {
    font-weight: 500;
-font-size: 2.5rem;
+   font-size: 2.5rem;
 }
 
 .svg-card-1,
@@ -248,4 +249,43 @@ font-size: 2.5rem;
 
    background: rgba(78, 171, 167, 0.1);
    border-radius: 85px;
+}
+
+.vemGente {
+   height: 673px;
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   background: linear-gradient(180deg, rgba(226, 233, 232, 0) 0%, rgba(15, 79, 76, 0.1) 100%);
+}
+.texto-vemGente{
+   display: flex;
+   flex-direction: column;
+   gap: 1.25rem;
+}
+
+.paragrafoVemGente {
+   font-weight: 300;
+   font-size: 32px;
+   line-height: 38px;
+   display: flex;
+   align-items: center;
+   text-align: justify;
+   width: 682px;
+   color: var(--cor--texto--verde-escuro);
+}
+
+.tituloVemGente {
+   font-weight: 500;
+   font-size: 70px;
+   display: flex;
+   justify-content: end;
+   gap: 0.625rem;
+   color: var(--cor--texto--verde-escuro);
+}
+
+
+.nosso-app {
+   height: 992px;
+   background: rgba(15, 79, 76, 0.1);
 }
