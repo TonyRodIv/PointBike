@@ -1,0 +1,80 @@
+:root{
+    --cor--texto--verde-escuro: #0F4F4C;
+    --cor--botão--verde: #09837E;
+    --cor--card--1: #7FC6A6;
+    --cor--card--2: #4EABA7;
+    --cor--card--3: #50BFA5;
+    --cor--card--azul: #EBF3FA;
+ }
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+ }
+ .container{
+    width: 80%;
+    margin: 0 auto;
+ }
+ .nav{
+    width: 90%;
+    margin: 0 auto;
+    height: 99px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ 
+    background-color: #fff;
+ 
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+ }
+ .logo{
+    font-size: 45px;
+    color: var(--cor--texto--verde-escuro);
+    display: flex;
+    align-items: center;
+ }
+ .logo a{
+    color: var(--cor--texto--verde-escuro);
+ }
+ .point{
+    font-weight: lighter;
+ }
+ .menu{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+ }
+ .sobre-nos, .contato, .ainda-n-conta{
+    font-size: 25px;
+    text-decoration: none;
+ 
+    color: black;
+ }
+ .ainda-n-conta{
+    font-size: 25px;
+    text-decoration: none;
+    font-weight: 500;
+    color: black;
+ }
+ .btn-cadastro{
+    width: 177px;
+    height: 47px;
+    border-radius: 50px;
+    border: none;
+ 
+    font-size: 25px;
+    background-color:var(--cor--texto--verde-escuro);
+    color: white;
+ }
+ .login-btn{
+    width: 177px;
+    height: 47px;
+    border-radius: 50px;
+    border: none;
+ 
+    font-size: 25px;
+    background-color:var(--cor--texto--verde-escuro);
+    color: white;
+ }
