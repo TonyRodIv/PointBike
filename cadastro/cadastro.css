@@ -1,0 +1,35 @@
+:root{
+    --cor--texto--verde-escuro: #0F4F4C;
+    --cor--botão--verde: #09837E;
+    --cor--card--1: #7FC6A6;
+    --cor--card--2: #4EABA7;
+    --cor--card--3: #50BFA5;
+    --cor--branca: #fff;
+    --cor--barra-progresso: #3C8F7C;
+    --cor--botão--cadastro: #0F4F4C;
+ }
+
+.container {
+    height: 25px;
+    background-color: #CCC;
+    position: relative;
+    width: 38.9375rem;
+    border-radius: 6.25rem;
+  }
+  
+  .container .progress-bar {
+    position: absolute;
+    height: 100%;
+    border-radius: 6.25rem;
+    background-color: var(--cor--barra-progresso);
+    animation: progress-animation 5s infinite;
+  }
+  
+  @keyframes progress-animation {
+    0% {
+      width: 0%;
+    }
+    100% {
+      width: 10%;
+    }
+  }
