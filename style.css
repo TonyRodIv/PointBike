@@ -5,3 +5,35 @@
    --cor--card--2: #4EABA7;
    --cor--card--3: #50BFA5;
 }
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+.menu{
+   height: 99px;
+
+   font-family: 'Inter', sans-serif;
+
+   display: flex;
+   flex-direction: row;
+   padding-left: 30px;
+}
+.btn-cadastro{
+   width: 177px;
+   height: 47px;
+   border-radius: 50px;
+
+   font-size: 20px;
+}
+.btn-login{
+   width: 177px;
+   height: 47px;
+
+   border-radius: 50px;
+   border: none;
+
+   font-size: 20px;
+   background-color: var(--cor--botão--verde);
+   color: white;
+}
