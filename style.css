@@ -4,6 +4,7 @@
    --cor--card--1: #7FC6A6;
    --cor--card--2: #4EABA7;
    --cor--card--3: #50BFA5;
+   --cor--card--azul: #EBF3FA;
 }
 *{
    margin: 0;
@@ -51,7 +52,7 @@
    border-color: var(--cor--botão--verde);
    background-color: #ffffff00;
 
-   font-size: 20px;
+   font-size: 25px;
 }
 .btn-login{
    width: 177px;
@@ -60,7 +61,26 @@
    border-radius: 50px;
    border: none;
 
-   font-size: 20px;
+   font-size: 25px;
    background-color: var(--cor--botão--verde);
    color: white;
+}
+.card-azul{
+   width: 1464px;
+   height: 526px;
+   margin: 0 auto;
+   border-radius: 30px;
+
+   display: flex;
+   flex-direction: column;
+
+   background-color: var(--cor--card--azul);
+}
+.titulo-cardA{
+   font-family: 'Inter', sans-serif;
+   font-size: 50px;
+}
+.text-cardA{
+   font-family: 'Inter', sans-serif;
+   font-size: 20px;
 }
