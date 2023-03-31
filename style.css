@@ -29,6 +29,9 @@
    align-items: center;
    margin-left: 806px;
 }
+.contato{
+   margin-left: 25px;
+}
 .sobre-nos, .contato{
    font-size: 25px;
    text-decoration: none;
@@ -38,14 +41,20 @@
 .btn-cadastro{
    width: 177px;
    height: 47px;
+   margin-left: 40px;
    border-radius: 50px;
 
+   border-style: solid;
+   color: var(--cor--botão--verde);
+   border-color: var(--cor--botão--verde);
+   background-color: #ffffff00;
+   
    font-size: 20px;
 }
 .btn-login{
    width: 177px;
    height: 47px;
-
+   margin-left: 25px;
    border-radius: 50px;
    border: none;
 
