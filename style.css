@@ -258,15 +258,15 @@ button {
    justify-content: space-around;
    background: linear-gradient(180deg, rgba(226, 233, 232, 0) 0%, rgba(15, 79, 76, 0.1) 100%);
 }
-.texto-vemGente{
+.texto-secao{
    display: flex;
    flex-direction: column;
    gap: 1.25rem;
 }
 
-.paragrafoVemGente {
+.paragrafoSecao {
    font-weight: 300;
-   font-size: 32px;
+   font-size: 28px;
    line-height: 38px;
    display: flex;
    align-items: center;
@@ -275,7 +275,7 @@ button {
    color: var(--cor--texto--verde-escuro);
 }
 
-.tituloVemGente {
+.tituloSecao {
    font-weight: 500;
    font-size: 70px;
    display: flex;
@@ -287,5 +287,8 @@ button {
 
 .nosso-app {
    height: 992px;
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
    background: rgba(15, 79, 76, 0.1);
 }
