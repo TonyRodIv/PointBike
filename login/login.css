@@ -12,25 +12,30 @@
    padding: 0;
    box-sizing: border-box;
    text-decoration: none;
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 @media screen and (max-width: 1499px) {
+
    /* RESPONSIVIDADE PARA TELAS PEQUENAS/MEDIAS */
-   *{
+   * {
       --texto--Navbar--: 20px;
    }
-   .nav{
+
+   .nav {
       height: 5rem;
    }
 }
 
 @media screen and (min-width: 1500px) {
+
    /* RESPONSIVIDADE PARA TELAS GRANDES */
-   *{
+   * {
       --texto--Navbar--: 25px;
    }
+
    .container {
-      width: 85%;
+      /* width: 85%; */
       margin: 0 auto;
    }
 
@@ -60,9 +65,11 @@
    justify-content: space-between;
    padding: 0px 5rem;
 }
-button{
+
+button {
    cursor: pointer;
 }
+
 .logo {
    font-size: 45px;
    color: var(--cor--texto--verde-escuro);
