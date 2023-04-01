@@ -25,6 +25,9 @@
    .nav {
       height: 5rem;
    }
+   .card-azul{
+      width: 85%;
+   }
 }
 
 @media screen and (min-width: 1500px) {
@@ -35,13 +38,17 @@
    }
 
    .container {
-      width: 85%;
+      /* width: 85%; */
       margin: 0 auto;
    }
 
    .nav {
       height: 6.1875rem;
       justify-content: space-around;
+   }
+
+   .card-azul{
+      width: 1500px;
    }
 }
 
@@ -124,7 +131,6 @@ button {
 }
 
 .card-azul {
-   width: 96.83%;
    height: 32rem;
    margin: 0 auto;
    border-radius: 1.875rem;
