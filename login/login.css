@@ -5,6 +5,7 @@
    --cor--card--2: #4EABA7;
    --cor--card--3: #50BFA5;
    --cor--card--azul: #EBF3FA;
+   --cor--texto--caixa--login: #072B29 ;
 }
 
 * {
@@ -99,20 +100,14 @@ button {
    color: black;
 }
 
-.btn-cadastro {
-   width: 177px;
-   height: 47px;
-   border-radius: 50px;
-
-   border-style: solid;
-   color: var(--cor--botão--verde);
-   border-color: var(--cor--botão--verde);
-   background-color: #ffffff00;
-
+.sem-conta {
    font-size: 1.5625rem;
+   font-weight: 500;
+
+   color: var(--cor--texto--verde-escuro);
 }
 
-.btn-login {
+.btn-cadastre {
    width: 11.0625rem;
    height: 2.9375rem;
    border-radius: 3.125rem;
@@ -121,4 +116,104 @@ button {
    font-size: 1.5625rem;
    background-color: var(--cor--botão--verde);
    color: white;
+}
+
+.login-content{
+   display: flex;
+   justify-content: space-around;
+
+   margin-top: 49px;
+}
+
+.caixa-login{
+   width: 592.42px;
+   height: 723px;
+   padding: 1.875rem;
+   gap: 2rem;
+
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+
+   background: #FAFAFA;
+   box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.25);
+   border-radius: 30px;
+
+   font-weight: 300;
+   font-size: 1.5rem;
+   line-height: 1.75rem;
+}
+
+.login{ 
+   font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   font-weight: 500;
+   font-size: 65px;
+   display: flex;
+   align-items: center;
+
+   color: var(--cor--texto--verde-escuro);
+}
+.barra-email,
+.barra-senha{
+   width: 504.49px;
+   height: 58.26px;
+   padding: 1rem;
+
+   background: #E7E8E5;
+   border-radius: 9px;
+   border: none;
+
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   font-weight: 400;
+   font-size: 24px;
+   color: rgba(7, 43, 41, 0.25);
+}
+.email,
+.senha{
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   font-weight: 300;
+   font-size: 24px;
+   display: flex;
+   align-items: center;
+   text-align: center;
+
+   color: var(--cor--texto--caixa--login);
+}
+.login-btn{
+   width: 218.43px;
+   height: 58px;
+   background: var(--cor--botão--verde);
+   color: #fff;
+
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   font-weight: 500;
+   font-size: 25px;
+
+   border: none;
+   border-radius: 50px;
+}
+.alternativas-login{
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: center;
+}
+.opcoes-login{
+   
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   font-weight: 300;
+   font-size: 24px;
+
+   color: var(--cor--texto--verde-escuro);
+}
+.logo-google,
+.logo-facebook{
+   width: 56px;
+   height: 56px;
+
+   padding: 0.5rem;
+   border-radius: 25px;
+
+   background: #EEEEEE;
 }
