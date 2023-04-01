@@ -23,39 +23,60 @@
         <a class="contato" href="">
           <p>Contato</p>
         </a>
-        <a href="../cadastro/cadastro.html">
-          <button class="btn-cadastro">Cadastrar-se</button>
-        </a>
-        <a href="../login/login.html">
+        <a href="../login/login.html" class="loginAcc">
+          <p>Já tem uma conta?</p>
           <button class="btn-login">Login</button>
         </a>
       </div>
     </div>
 
-    <div class="cadastro">
-      <div class="Cadastre-se">
-        Cadastre-se
-      </div>
-      <img src="../img/Vetor Bicicletas.svg" alt="">
-      <form action="">
-        <p>Nome completo</p>
-        <input type="text" placeholder="Nome Sobrenome">
-        <p>CPF</p>
-        <input type="text" placeholder="ex:123.456.789.10">
-        <p>Data de Nascimento</p>
-        <input type="text" placeholder="dd/mm/aa">
-        <div class="progress-container">
-          <div class="progress-bar"></div>
-        </div>
-        <button type="submit" class="btn-cadastro">Cadastrar</button>
-    </form>
+    <div class="titulo">
+      Cadastre-se
     </div>
-    <div>
-      <p>Ou cadastre-se com o:</p>
-      <img src="../img/google.svg" alt="">
-      <img src="../img/facebook.svg" alt="">
+    <div class="cadastro">
+      <img src="../img/Vetor Bicicletas.svg" alt="">
+      <div action="" class="form" id="form1">
+        <div class="formDiv">
+          <p>Nome completo</p>
+          <input type="text" placeholder="Nome Sobrenome">
+        </div>
+        <div class="formDiv">
+          <p>CPF</p>
+          <input type="text" placeholder="ex:123.456.789.10">
+        </div>
+        <div class="formDiv">
+          <p>Data de Nascimento</p>
+          <input type="text" placeholder="dd/mm/aa">
+        </div>
+        <button class="btn-cadastro" id="continuarCadastro" onclick="continuar()">Continuar cadastro</button>
+        <div class="cadastroAlternativo">
+          <p>Ou cadastre-se com o:</p>
+          <img src="../img/google.svg" alt="">
+          <img src="../img/facebook.svg" alt="">
+        </div>
+    </div>
+
+    <form action="" class="form" id="form2">
+      <div class="formDiv">
+        <p>Email</p>
+        <input type="email" id="email" placeholder="ex.: abcdefg@gmail.com">
+        <p id="errorEmail" style="color: red; display: none;">Email Inválido</p>
+      </div>
+      <div class="formDiv">
+        <p>Senha</p>
+        <input type="password" id="password" placeholder="**********">
+        <p id="errorPass" style="color: red; display: none;">Senha Inválida</p>
+      </div>
+      <!-- <div class="formDiv">
+        <p>Confirme sua senha</p>
+        <input type="password" id="password" class="passwordConfirm" placeholder="**********">
+        <p id="errorPass" style="color: red; display: none;">Senha Inválida</p>
+      </div> -->
+      <button type="submit" class="btn-cadastro">Finalizar cadastro</button>
+  </form>
     </div>
   </div>
+  <script src="./cadastro.js"></script>
 </body>
 
 </html>
