@@ -25,7 +25,8 @@
    .nav {
       height: 5rem;
    }
-   .card-azul{
+
+   .card-azul {
       width: 85%;
    }
 }
@@ -47,7 +48,7 @@
       justify-content: space-around;
    }
 
-   .card-azul{
+   .card-azul {
       width: 1500px;
    }
 }
@@ -264,7 +265,8 @@ button {
    justify-content: space-around;
    background: linear-gradient(180deg, rgba(226, 233, 232, 0) 0%, rgba(15, 79, 76, 0.1) 100%);
 }
-.texto-secao{
+
+.texto-secao {
    display: flex;
    flex-direction: column;
    gap: 1.25rem;
@@ -297,4 +299,12 @@ button {
    align-items: center;
    justify-content: space-around;
    background: rgba(15, 79, 76, 0.1);
+}
+
+footer {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 354px;
+   background: var(--cor--texto--verde-escuro);
 }
