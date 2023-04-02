@@ -38,13 +38,16 @@
    .card-azul {
       width: 1500px;
    }
-   .caixa-card2{
+
+   .caixa-card2 {
       padding: 0 10%;
    }
-   .vemGente{
+
+   .vemGente {
       padding: 0 15%;
    }
-   .nosso-app{
+
+   .nosso-app {
       padding: 0 15%;
    }
 }
@@ -80,7 +83,8 @@ button {
    display: flex;
    align-items: center;
 }
-.point img{
+
+.point img {
    width: 1.20rem;
 }
 
@@ -116,12 +120,14 @@ button {
 
    font-size: 21px;
 }
-.btn-cadastro:hover{
+
+.btn-cadastro:hover {
    background-color: var(--cor--botão--verde);
    color: white;
    font-weight: bold;
 }
-.btn-login:hover{
+
+.btn-login:hover {
    border-style: solid;
    color: var(--cor--botão--verde);
    border-color: var(--cor--botão--verde);
@@ -204,6 +210,13 @@ button {
    background-color: var(--cor--botão--verde);
 }
 
+.cadastrar-CardA:hover {
+   box-shadow: 7px 5px 56px -14px #09837E;
+
+   color: var(--cor--botão--verde);
+   background-color: var(--cor--card--azul);
+}
+
 .caixa-card2 {
    height: 600px;
    padding: 1.875rem 0px;
@@ -267,9 +280,10 @@ button {
    background: rgba(78, 171, 167, 0.1);
    border-radius: 85px;
 }
+
 .svg-card-1 img,
 .svg-card-2 img,
-.svg-card-3 img{
+.svg-card-3 img {
    width: 70px;
 }
 
@@ -280,10 +294,12 @@ button {
    justify-content: space-around;
    background: linear-gradient(180deg, rgba(226, 233, 232, 0) 0%, rgba(15, 79, 76, 0.1) 100%);
 }
-.vemGente .bikePark{
+
+.vemGente .bikePark {
    width: 451px;
 }
-.flowerDiv{
+
+.flowerDiv {
    width: 60px;
 }
 
@@ -321,9 +337,11 @@ button {
    justify-content: space-around;
    background: rgba(15, 79, 76, 0.1);
 }
-.nosso-app .celular{
+
+.nosso-app .celular {
    width: 391px;
 }
+
 footer {
    display: flex;
    justify-content: center;
@@ -331,6 +349,7 @@ footer {
    height: 254px;
    background: var(--cor--texto--verde-escuro);
 }
-footer img{
+
+footer img {
    width: 250px;
 }
