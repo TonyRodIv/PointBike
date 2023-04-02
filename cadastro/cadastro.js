@@ -1,9 +1,33 @@
 function continuar(){
     let form1 = document.getElementById('form1');
     let form2 = document.getElementById('form2');
+
+    let data = document.getElementById('data').value
+    let cpf = document.getElementById('cpf').value
+    let nome = document.getElementById('nome').value
+
+    let dataC = document.getElementById('data')
+    let cpfC = document.getElementById('cpf')
+    let nomeC = document.getElementById('nome')
+
+    nomeC.style.border = "none";
+    dataC.style.border = "none";
+    cpfC.style.border = "none";
     
-    form1.style.display = 'none'
-    form2.style.display = 'flex'
+    if(cpf == '' || data == '' || nome == ''){
+        if(cpf == ''){
+            cpfC.style.border = "red solid 3px";
+        }
+        if(data == ''){
+            dataC.style.border = "red solid 3px";
+        }
+        if(nome == ''){
+            nomeC.style.border = "red solid 3px";
+        }
+    }else{
+        form1.style.display = 'none'
+        form2.style.display = 'flex'
+    }
 }
 
 document.getElementById('form2').addEventListener('submit',

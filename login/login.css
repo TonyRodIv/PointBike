@@ -5,7 +5,6 @@
    --cor--card--2: #4EABA7;
    --cor--card--3: #50BFA5;
    --cor--card--azul: #EBF3FA;
-   --cor--texto--caixa--login: #072B29 ;
 }
 
 * {
@@ -19,30 +18,37 @@
 @media screen and (max-width: 1499px) {
 
    /* RESPONSIVIDADE PARA TELAS PEQUENAS/MEDIAS */
-   * {
-      --texto--Navbar--: 20px;
-   }
-
    .nav {
       height: 5rem;
+   }
+
+   .card-azul {
+      width: 90%;
    }
 }
 
 @media screen and (min-width: 1500px) {
 
    /* RESPONSIVIDADE PARA TELAS GRANDES */
-   * {
-      --texto--Navbar--: 25px;
-   }
-
-   .container {
-      /* width: 85%; */
-      margin: 0 auto;
-   }
-
    .nav {
       height: 6.1875rem;
       justify-content: space-around;
+   }
+
+   .card-azul {
+      width: 1500px;
+   }
+
+   .caixa-card2 {
+      padding: 0 10%;
+   }
+
+   .vemGente {
+      padding: 0 15%;
+   }
+
+   .nosso-app {
+      padding: 0 15%;
    }
 }
 
@@ -72,10 +78,14 @@ button {
 }
 
 .logo {
-   font-size: 45px;
+   font-size: 35px;
    color: var(--cor--texto--verde-escuro);
    display: flex;
    align-items: center;
+}
+
+.point img {
+   width: 1.20rem;
 }
 
 .logo a {
@@ -93,42 +103,47 @@ button {
 }
 
 .sobre-nos,
-.contato {
-   font-size: var(--texto--Navbar--);
+.contato,
+.sem-conta {
+   font-size: 20px;
    text-decoration: none;
 
-   color: black;
+   color: rgb(32, 32, 32);
+}
+
+.btn-cadastro {
+   border-radius: 50px;
+   padding: 5px 15px;
+   border-style: solid;
+   color: var(--cor--botão--verde);
+   border-color: var(--cor--botão--verde);
+   background-color: #ffffff00;
+
+   font-size: 21px;
+}
+
+.btn-cadastro:hover {
+   background-color: var(--cor--botão--verde);
+   color: white;
+   font-weight: bold;
 }
 
 .sem-conta {
-   font-size: 1.5625rem;
-   font-weight: 500;
-
    color: var(--cor--texto--verde-escuro);
 }
 
-.btn-cadastre {
-   width: 11.0625rem;
-   height: 2.9375rem;
-   border-radius: 3.125rem;
-   border: none;
 
-   font-size: 1.5625rem;
-   background-color: var(--cor--botão--verde);
-   color: white;
-}
-
-.login-content{
+.login-content {
    display: flex;
    justify-content: space-around;
    align-items: center;
    margin-top: 2.7rem;
 }
 
-.caixa-login{
-   width: 592.42px;
-   height: 723px;
-   padding: 1.875rem;
+.caixa-login {
+   width: 450px;
+   height: 70vh;
+   padding: 1rem;
    gap: 2rem;
 
    display: flex;
@@ -141,19 +156,20 @@ button {
    border-radius: 30px;
 }
 
-.login{ 
+.login {
 
    font-weight: 500;
-   font-size: 65px;
+   font-size: 40px;
    display: flex;
    align-items: center;
 
    color: var(--cor--texto--verde-escuro);
 }
+
 .barra-email,
-.barra-senha{
-   width: 504.49px;
-   height: 58.26px;
+.barra-senha {
+   width: 400px;
+   height: 50px;
    padding: 1rem;
 
    background: #E7E8E5;
@@ -162,23 +178,25 @@ button {
 
 
    font-weight: 400;
-   font-size: 24px;
+   font-size: 15px;
    color: rgba(7, 43, 41, 0.25);
 }
+
 .email,
-.senha{
+.senha {
 
    font-weight: 300;
-   font-size: 24px;
+   font-size: 22px;
    display: flex;
    align-items: center;
    text-align: center;
 
    color: var(--cor--texto--caixa--login);
 }
-.login-btn{
-   width: 218.43px;
-   height: 58px;
+
+.login-btn {
+   width: 200px;
+   height: 50px;
    background: var(--cor--botão--verde);
    color: #fff;
 
@@ -189,32 +207,42 @@ button {
    border: none;
    border-radius: 50px;
 }
-.alternativas-login{
+
+.alternativas-login a{
    display: flex;
    flex-direction: row;
    align-items: center;
    justify-content: center;
+   gap: 10px;
 }
-.opcoes-login{
-   
+
+.opcoes-login {
+
    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
    font-weight: 300;
-   font-size: 24px;
+   font-size: 22px;
 
    color: var(--cor--texto--verde-escuro);
 }
+
 .logo-google,
-.logo-facebook{
-   width: 56px;
-   height: 56px;
+.logo-facebook {
+   width: 40px;
+   height: 40px;
 
    padding: 0.5rem;
    border-radius: 25px;
 
    background: #EEEEEE;
 }
-form{
+
+form {
    display: flex;
    flex-direction: column;
    justify-content: space-around;
+   align-items: center;
+   gap: 20px;
+}
+.img-login img{
+   width: 500px;
 }

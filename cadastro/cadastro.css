@@ -18,32 +18,38 @@
 @media screen and (max-width: 1499px) {
 
   /* RESPONSIVIDADE PARA TELAS PEQUENAS/MEDIAS */
-  * {
-     --texto--Navbar--: 20px;
+  .nav {
+    height: 5rem;
   }
 
-  .nav {
-     height: 5rem;
+  .card-azul {
+    width: 90%;
   }
 }
 
 @media screen and (min-width: 1500px) {
 
   /* RESPONSIVIDADE PARA TELAS GRANDES */
-  * {
-     --texto--Navbar--: 25px;
-  }
-
-  .container {
-     width: 85%;
-     margin: 0 auto;
-  }
-
   .nav {
-     height: 6.1875rem;
-     justify-content: space-around;
+    height: 6.1875rem;
+    justify-content: space-around;
   }
 
+  .card-azul {
+    width: 1500px;
+  }
+
+  .caixa-card2 {
+    padding: 0 10%;
+  }
+
+  .vemGente {
+    padding: 0 15%;
+  }
+
+  .nosso-app {
+    padding: 0 15%;
+  }
 }
 
 .container {
@@ -72,10 +78,14 @@ button {
 }
 
 .logo {
-  font-size: 45px;
+  font-size: 35px;
   color: var(--cor--texto--verde-escuro);
   display: flex;
   align-items: center;
+}
+
+.point img {
+  width: 1.20rem;
 }
 
 .logo a {
@@ -93,106 +103,113 @@ button {
 }
 
 .sobre-nos,
-.contato {
-  font-size: var(--texto--Navbar--);
+.contato,
+.sem-conta {
+  font-size: 20px;
   text-decoration: none;
 
-  color: rgb(36, 36, 36);
-}
-.loginAcc p{
-  text-align: center;
-  text-decoration: none;
-
-  color: rgb(26, 26, 26);
+  color: rgb(32, 32, 32);
 }
 
+.btn-login,
 .btn-cadastro {
-  padding: 1.25rem;
   border-radius: 50px;
-  margin: 1rem;
+  padding: 5px 15px;
   border-style: solid;
   color: var(--cor--botão--verde);
   border-color: var(--cor--botão--verde);
   background-color: #ffffff00;
 
-  font-size: 1.5625rem;
+  font-size: 21px;
 }
 
-.btn-login {
-  width: 11.0625rem;
-  height: 2.9375rem;
-  border-radius: 3.125rem;
-  border: none;
-
-  font-size: 1.5625rem;
+.btn-login:hover,
+.btn-cadastro:hover {
   background-color: var(--cor--botão--verde);
   color: white;
+  font-weight: bold;
 }
-.titulo{
+
+.sem-conta {
+  color: var(--cor--texto--verde-escuro);
+}
+
+
+.titulo {
   margin-right: 5rem;
   font-weight: 500;
-  font-size: 65px;
+  font-size: 50px;
   line-height: 76px;
   display: flex;
   align-items: center;
   justify-content: end;
   text-align: right;
-  
+  display: block;
+
   color: var(--cor--texto--verde-escuro);
 }
-.cadastro{
+
+.cadastro {
   display: flex;
   align-items: center;
   justify-content: space-around;
 }
-.form{
+
+.form {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 1rem;
 }
-.form input{
-  width: 624.41px;
-height: 58.26px;
-border: none;
-background: #E7E8E5;
-border-radius: 9px;
 
-font-weight: 400;
-font-size: 24px;
-line-height: 28px;
-display: flex;
-padding: 1rem;
+.form input {
+  width: 510px;
+  height: 50px;
+  border: none;
+  background: #E7E8E5;
+  border-radius: 9px;
 
-color: rgba(7, 43, 41, 0.25);
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  display: flex;
+  padding: 1rem;
+
+  color: rgba(7, 43, 41, 0.25);
 }
-.formDiv p{
+
+.formDiv p {
   font-weight: 300;
-font-size: 24px;
-line-height: 28px;
-display: flex;
-margin-bottom: 5px;
+  font-size: 21px;
+  line-height: 28px;
+  display: flex;
+  margin-bottom: 5px;
 
-color: #072B29;
+  color: #072B29;
 }
-.cadastroAlternativo{
+
+.cadastroAlternativo {
   display: flex;
   gap: 20px;
 
   font-weight: 300;
-font-size: 24px;
-line-height: 28px;
-display: flex;
-align-items: center;
-text-align: center;
+  font-size: 21px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  text-align: center;
 
-color: #072B29;
+  color: #072B29;
 }
 
 /* FORM CADASTRO pt.2 */
-#form1{
+#form1 {
   display: flex;
 }
-#form2{
-display: none;
+
+#form2 {
+  display: none;
+}
+.bike-park{
+  width: 490px;
 }

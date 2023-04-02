@@ -5,6 +5,7 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" href="../img/iconPage.png" type="image/x-icon">
   <link rel="stylesheet" href="./cadastro.css">
   <title>BIKE POINT</title>
 </head>
@@ -14,7 +15,7 @@
     <div class="nav">
       <h3 class="logo">
         <a href="../index.html">Bike <span class="point"> P<img src="../img/localizacao.svg" alt="" />int</span></a>
-
+  
       </h3>
       <div class="menu">
         <a class="sobre-nos" href="">
@@ -23,9 +24,12 @@
         <a class="contato" href="../contatos/contatos.html">
           <p>Contato</p>
         </a>
-        <a href="../login/login.html" class="loginAcc">
-          <p>Já tem uma conta?</p>
-          <button class="btn-login">Login</button>
+        <a href="../login/login.html">
+          <p class="sem-conta">Já tem uma conta?</p>
+        </a>
+        
+          <a href="../cadastro/cadastro.html">
+          <button class="btn-login">Faça Login</button>
         </a>
       </div>
     </div>
@@ -34,19 +38,19 @@
       Cadastre-se
     </div>
     <div class="cadastro">
-      <img src="../img/Vetor Bicicletas.svg" alt="">
+      <img class="bike-park" src="../img/Vetor Bicicletas.svg" alt="">
       <div action="" class="form" id="form1">
         <div class="formDiv">
           <p>Nome completo</p>
-          <input type="text" placeholder="Nome Sobrenome">
+          <input type="text" placeholder="Nome Sobrenome" id="nome">
         </div>
         <div class="formDiv">
           <p>CPF</p>
-          <input type="text" placeholder="ex:123.456.789.10">
+          <input type="number" placeholder="ex:123.456.789.10" id="cpf">
         </div>
         <div class="formDiv">
           <p>Data de Nascimento</p>
-          <input type="text" placeholder="dd/mm/aa">
+          <input type="date" placeholder="dd/mm/aa" id="data">
         </div>
         <button class="btn-cadastro" id="continuarCadastro" onclick="continuar()">Continuar cadastro</button>
         <div class="cadastroAlternativo">
