@@ -353,3 +353,14 @@ footer {
 footer img {
    width: 250px;
 }
+#userInfo{
+   display: none;
+}
+.userArea{
+   display: flex;
+   align-items: center;
+   gap: 5px;
+   border: 2px solid #d1d1d1;
+   border-radius: 100px;
+   padding-right: 5px;
+}

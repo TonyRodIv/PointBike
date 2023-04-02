@@ -37,6 +37,8 @@ document.getElementById('form2').addEventListener('submit',
         let regexP = /^(?!.*\s)(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[~`!@#$%^&*()--+={}\[\]|\\:;"'<>,.?/_₹]).{10,16}$/;
         let regexE = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
 
+        let nome = document.getElementById('nome').value
+
         let email = document.getElementById('email').value
         let pass = document.getElementById('password').value
         let passColor = document.getElementById('password')
@@ -52,8 +54,8 @@ document.getElementById('form2').addEventListener('submit',
 
         if (regexP.test(pass) && regexE.test(email)) {
             console.log('💥AMBOS ATENDEM OS REQUISITOS💥')
+            localStorage.setItem('userD',nome)
             window.location.href =  '../Mapa/mapa.html'
-
         }
         else{
             if (regexP.test(pass)) {
