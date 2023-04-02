@@ -360,7 +360,9 @@ footer img {
    display: flex;
    align-items: center;
    gap: 5px;
-   border: 2px solid #d1d1d1;
+   border: 2px solid #09837E;
    border-radius: 100px;
    padding-right: 5px;
+   background-color: #09837E;
+   color: white;
 }

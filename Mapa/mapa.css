@@ -151,6 +151,19 @@ button {
    background-color: var(--cor--botão--verde);
    color: white;
 }
+#userInfo{
+   display: none;
+}
+.userArea{
+   display: flex;
+   align-items: center;
+   gap: 5px;
+   border: 2px solid #09837E;
+   border-radius: 100px;
+   padding-right: 5px;
+   background-color: #09837E;
+   color: white;
+}
 
 /* AREA ENTRE EM CONTATO CONOSCO */
 .conteudo {
