@@ -18,31 +18,18 @@
 @media screen and (max-width: 1499px) {
 
    /* RESPONSIVIDADE PARA TELAS PEQUENAS/MEDIAS */
-   * {
-      --texto--Navbar--: 20px;
-   }
-
    .nav {
       height: 5rem;
    }
 
    .card-azul {
-      width: 85%;
+      width: 90%;
    }
 }
 
 @media screen and (min-width: 1500px) {
 
    /* RESPONSIVIDADE PARA TELAS GRANDES */
-   * {
-      --texto--Navbar--: 25px;
-   }
-
-   .container {
-      /* width: 85%; */
-      margin: 0 auto;
-   }
-
    .nav {
       height: 6.1875rem;
       justify-content: space-around;
@@ -50,6 +37,15 @@
 
    .card-azul {
       width: 1500px;
+   }
+   .caixa-card2{
+      padding: 0 10%;
+   }
+   .vemGente{
+      padding: 0 15%;
+   }
+   .nosso-app{
+      padding: 0 15%;
    }
 }
 
@@ -79,10 +75,13 @@ button {
 }
 
 .logo {
-   font-size: 45px;
+   font-size: 35px;
    color: var(--cor--texto--verde-escuro);
    display: flex;
    align-items: center;
+}
+.point img{
+   width: 1.20rem;
 }
 
 .logo a {
@@ -101,32 +100,30 @@ button {
 
 .sobre-nos,
 .contato {
-   font-size: var(--texto--Navbar--);
+   font-size: 20px;
    text-decoration: none;
 
    color: black;
 }
 
 .btn-cadastro {
-   width: 177px;
-   height: 47px;
    border-radius: 50px;
-
+   padding: 5px 15px;
    border-style: solid;
    color: var(--cor--botão--verde);
    border-color: var(--cor--botão--verde);
    background-color: #ffffff00;
 
-   font-size: 1.5625rem;
+   font-size: 21px;
 }
 
 .btn-login {
-   width: 11.0625rem;
-   height: 2.9375rem;
+   border-radius: 50px;
+   padding: 7px 35px;
    border-radius: 3.125rem;
    border: none;
 
-   font-size: 1.5625rem;
+   font-size: 21px;
    background-color: var(--cor--botão--verde);
    color: white;
 }
@@ -149,15 +146,15 @@ button {
 }
 
 .pessoasBike {
-   width: 780px;
+   width: 570px;
 }
 
 .titulo-cardA {
    color: var(--cor--texto--verde-escuro);
    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
    font-weight: 400;
-   font-size: 4.0625rem;
-   line-height: 4.75rem;
+   font-size: 50px;
+   line-height: 3rem;
 }
 
 .tempo {
@@ -166,26 +163,26 @@ button {
 
 .va-de {
    font-weight: 300;
-   font-size: 3.125rem;
+   font-size: 40px;
 }
 
 .bike {
    font-weight: 500;
-   font-size: 3.125rem;
+   font-size: 40px;
 }
 
 .text-cardA {
    margin: 0.9375rem 0rem 1.5625rem 0rem;
    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
    font-weight: 400;
-   width: 550px;
+   width: 500px;
+   color: var(--cor--texto--verde-escuro);
    font-size: 1.25rem;
    line-height: 1.4375rem;
 }
 
 .cadastrar-CardA {
-   width: 17.625rem;
-   height: 4.6875rem;
+   padding: 0.5rem 2.5rem;
    border: none;
    border-radius: 3.125rem;
 
@@ -205,19 +202,19 @@ button {
 
 .titulo-cardG {
    font-weight: 500;
-   font-size: 4.0625rem;
+   font-size: 3.5rem;
    color: var(--cor--texto--verde-escuro);
 }
 
 .cards {
    display: flex;
-   gap: 2.1875rem;
+   gap: 20px;
 }
 
 .card {
-   width: 26.9375rem;
-   height: 32.875rem;
-   padding: 1.875rem;
+   width: 350px;
+   height: 450px;
+   padding: 30px;
 
    display: flex;
    flex-direction: column;
@@ -230,8 +227,8 @@ button {
    border-radius: 3.125rem;
 
    font-weight: 300;
-   font-size: 1.5rem;
-   line-height: 1.75rem;
+   font-size: 1.2rem;
+   line-height: 1.5rem;
    display: flex;
    align-items: center;
    text-align: justify;
@@ -241,14 +238,14 @@ button {
 
 .titulo-cards {
    font-weight: 500;
-   font-size: 2.5rem;
+   font-size: 2rem;
 }
 
 .svg-card-1,
 .svg-card-2,
 .svg-card-3 {
-   width: 10.625rem;
-   height: 10.625rem;
+   width: 130px;
+   height: 130px;
    margin-bottom: 0.625rem;
    display: flex;
    align-items: center;
@@ -257,16 +254,28 @@ button {
    background: rgba(78, 171, 167, 0.1);
    border-radius: 85px;
 }
+.svg-card-1 img,
+.svg-card-2 img,
+.svg-card-3 img{
+   width: 70px;
+}
 
 .vemGente {
-   height: 673px;
+   height: 550px;
    display: flex;
    align-items: center;
    justify-content: space-around;
    background: linear-gradient(180deg, rgba(226, 233, 232, 0) 0%, rgba(15, 79, 76, 0.1) 100%);
 }
+.vemGente .bikePark{
+   width: 451px;
+}
+.flowerDiv{
+   width: 60px;
+}
 
 .texto-secao {
+   width: 500px;
    display: flex;
    flex-direction: column;
    gap: 1.25rem;
@@ -274,37 +283,41 @@ button {
 
 .paragrafoSecao {
    font-weight: 300;
-   font-size: 28px;
-   line-height: 38px;
+   font-size: 20px;
+   line-height: 29px;
    display: flex;
    align-items: center;
    text-align: justify;
-   width: 682px;
    color: var(--cor--texto--verde-escuro);
 }
 
 .tituloSecao {
    font-weight: 500;
-   font-size: 70px;
+   font-size: 50px;
    display: flex;
-   justify-content: end;
+   justify-content: space-around;
    gap: 0.625rem;
    color: var(--cor--texto--verde-escuro);
 }
 
 
 .nosso-app {
-   height: 992px;
+   height: 650px;
    display: flex;
    align-items: center;
    justify-content: space-around;
    background: rgba(15, 79, 76, 0.1);
 }
-
+.nosso-app .celular{
+   width: 391px;
+}
 footer {
    display: flex;
    justify-content: center;
    align-items: center;
-   height: 354px;
+   height: 254px;
    background: var(--cor--texto--verde-escuro);
+}
+footer img{
+   width: 250px;
 }
