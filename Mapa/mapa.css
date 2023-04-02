@@ -232,7 +232,7 @@ input {
 }
 
 .carrossel {
-   padding-left: 30px;
+   padding: 0px 30px;
    position: fixed;
    bottom: 0;
    height: 250px;
@@ -241,6 +241,7 @@ input {
    flex-direction: column;
    flex-wrap: wrap;
    align-items: center;
+   justify-content: center;
    gap: 30px;
    overflow-x: auto;
    background: linear-gradient(180deg, rgba(252, 252, 252, 0.0677083) 0%, #FCFCFC 77.6%);
