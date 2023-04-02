@@ -34,15 +34,17 @@
   </div>
   <div class="login-content">
   <div class="caixa-login">
-    <form class="formulario">
+    <form class="formulario" id="form">
       <h1 class="login">Login</h1>
-      <div>
-        <p class="email">E-mail</p>
-        <input class="barra-email" type="email" placeholder="ex:abcdefg@gmail.com" />
+      <div class="formDiv">
+        <p>Email</p>
+        <input type="email" id="email" placeholder="ex.: abcdefg@gmail.com">
+        <p id="errorEmail" style="color: red; display: none;">Email Inválido</p>
       </div>
-      <div>
-        <p class="senha">Senha</p>
-        <input class="barra-senha" type="password" placeholder="**********" />
+      <div class="formDiv">
+        <p>Senha</p>
+        <input type="password" id="password" placeholder="**********">
+        <p id="errorPass" style="color: red; display: none;">Senha Inválida</p>
       </div>
         <button type="submit" class="login-btn">Login</button>
       <div class="alternativas-login">
@@ -59,6 +61,7 @@
         <img src="../img/Vetor Bicicletas.svg" alt="">
       </div>
   </div>
+  <script src="./login.js"></script>
 </body>
 
 </html>

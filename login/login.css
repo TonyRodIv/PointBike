@@ -166,8 +166,7 @@ button {
    color: var(--cor--texto--verde-escuro);
 }
 
-.barra-email,
-.barra-senha {
+#email,#password {
    width: 400px;
    height: 50px;
    padding: 1rem;
@@ -182,14 +181,13 @@ button {
    color: rgba(7, 43, 41, 0.25);
 }
 
-.email,
-.senha {
+.formDiv {
 
    font-weight: 300;
    font-size: 22px;
    display: flex;
-   align-items: center;
-   text-align: center;
+   flex-direction: column;
+   justify-content: center;
 
    color: var(--cor--texto--caixa--login);
 }
