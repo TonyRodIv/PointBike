@@ -257,9 +257,9 @@ button {
 
    display: flex;
    flex-direction: column;
-   justify-content: center;
+   
    align-items: center;
-   gap: 1rem;
+   gap: 1.5rem;
 
    background: #FAFAFA;
    box-shadow: 0rem 0.25rem 3.125rem rgba(0, 0, 0, 0.1);
