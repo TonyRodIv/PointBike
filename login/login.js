@@ -20,7 +20,7 @@ document.getElementById('form').addEventListener('submit',
 
         if (regexP.test(pass) && regexE.test(email)) {
             console.log('💥AMBOS ATENDEM OS REQUISITOS💥')
-            alert('Seu login foi concluído com sucesso!! 😉👌🏽')
+            window.location.href =  '../Mapa/mapa.html'
 
         }
         else{
