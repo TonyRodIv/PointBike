@@ -46,6 +46,9 @@
 @media screen and (min-width: 1500px) {
 
    /* RESPONSIVIDADE PARA TELAS GRANDES */
+   .nav {
+      height: 5rem;
+   }
    .card-azul {
       width: 1500px;
    }

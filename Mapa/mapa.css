@@ -25,6 +25,9 @@
    .card-azul {
       width: 90%;
    }
+   .pesquisa{
+      top: 5rem;
+   }
 }
 
 @media screen and (min-width: 1500px) {
@@ -33,6 +36,9 @@
    .nav {
       height: 6.1875rem;
       justify-content: space-around;
+   }
+   .pesquisa{
+      top: 7rem;
    }
 
    .card-azul {
@@ -174,7 +180,7 @@ button {
    display: flex;
    justify-content: center;
    position: fixed;
-   top: 5rem;
+   /* top: 5rem; */
    left: 50%;
    right: 50%;
    gap: 30px;
