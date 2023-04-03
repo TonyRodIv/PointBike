@@ -226,7 +226,7 @@ button {
 
 .cadastrar-CardA:hover {
    box-shadow: 7px 5px 56px -14px #09837E;
-
+   border: 0.5px solid var(--cor--botão--verde);
    color: var(--cor--botão--verde);
    background-color: var(--cor--card--azul);
 }
